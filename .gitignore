@@ -1,0 +1,35 @@
+# Local .terraform directories
+/.terraform/
+/*.tfstate
+/*.tfstate.backup
+
+# Ignore crash logs
+crash.log
+
+# Ignore override files (used to override configuration without checking them in)
+*.tfvars
+*.tfvars.json
+
+# Ignore Terraform plan output files
+*.tfplan
+
+# Ignore private SSH keys
+*.pem
+*.key
+
+# Ignore sensitive files like .env (if using environment variables)
+/.env
+
+# Ignore the lock file used for provider versions
+.terraform.lock.hcl
+
+# macOS specific files (if using macOS)
+/.DS_Store
+
+# Linux specific files
+*.swp
+
+# Windows specific files
+Thumbs.db
+
+*.tfstate
